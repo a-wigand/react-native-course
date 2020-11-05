@@ -10,11 +10,13 @@ function map(arr, fn) {
 }
 
 function addOne(num) { return num + 1 }
+function sum(x,y) {return x+y}
 
 const x = [0,1,2,3]
 
-console.log(map(x, addOne))
-
+// console.log(map(x, addOne))
+// x.forEach(function(val){console.log(val)})
+// x.forEach(val => {console.log(val)})
 
 function filter(arr, fn) {
   const newArr = []
@@ -34,3 +36,6 @@ function reduce(arr, fn, initialVal) {
 
   return returnVal
 }
+
+console.log(reduce(x, sum, 0))
+

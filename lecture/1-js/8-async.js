@@ -12,6 +12,11 @@ function printThree() {
 
 // this may not print in the order that you expect, because of the way the JS
 // function queue works
-setTimeout(printOne, 1000)
+
+// setTimeout(printOne, 1000)
+// setTimeout(printTwo, 0)
+// printThree()
+
+setTimeout(printOne, 0)
 setTimeout(printTwo, 0)
-printThree()
+setTimeout(printThree, 0)
