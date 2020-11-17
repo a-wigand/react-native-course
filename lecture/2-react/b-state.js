@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+// import Hello from './Hello';
 
 const styles = {
   fontFamily: 'sans-serif',

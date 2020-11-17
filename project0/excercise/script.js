@@ -14,7 +14,7 @@ function newTodo() {
   item.classList.add(classNames.TODO_ITEM)
   closeButton = document.createElement('button')
   closeButton.onclick = removeTodo
-  closeButton.textContent = '~'
+  closeButton.textContent = 'DONE'
   closeButton.classList.add(classNames.TODO_CHECKBOX)
   text = document.createElement('span')
   text.textContent = prompt('Add To Do item:')
