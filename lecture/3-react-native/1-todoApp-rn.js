@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Button, Text, ScrollView, StyleSheet, Switch} from 'react-native'
-import {Constants} from 'expo'
+import {Constants} from 'expo-constants'
 
 let id = 0
 
